@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "calendar-general.component.scss"
+    ],
+    "names": [],
+    "file": "calendar-general.component.css"
+}

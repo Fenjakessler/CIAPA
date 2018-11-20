@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "vacation-request-accepted.component.scss"
+    ],
+    "names": [],
+    "file": "vacation-request-accepted.component.css"
+}

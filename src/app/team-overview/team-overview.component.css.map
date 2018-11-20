@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "team-overview.component.scss"
+    ],
+    "names": [],
+    "file": "team-overview.component.css"
+}

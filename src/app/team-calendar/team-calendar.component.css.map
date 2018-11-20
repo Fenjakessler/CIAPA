@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "team-calendar.component.scss"
+    ],
+    "names": [],
+    "file": "team-calendar.component.css"
+}
