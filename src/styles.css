@@ -1,2 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  background-repeat: no-repeat;
+  border: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 0;
+  text-decoration: none;
+  font-family: Lato;
+}
 /*# sourceMappingURL=styles.css.map */

@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACAA,+EAA+E",
     "sources": [
-        "team-overview.component.scss"
+        "team-overview.component.scss",
+        "../../styles.scss"
     ],
     "names": [],
     "file": "team-overview.component.css"

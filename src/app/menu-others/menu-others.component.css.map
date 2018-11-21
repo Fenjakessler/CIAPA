@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACAA,+EAA+E",
     "sources": [
-        "menu-others.component.scss"
+        "menu-others.component.scss",
+        "../../styles.scss"
     ],
     "names": [],
     "file": "menu-others.component.css"

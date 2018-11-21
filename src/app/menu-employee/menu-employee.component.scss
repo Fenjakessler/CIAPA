@@ -1,1 +1,73 @@
-@import '../../styles.scss'
+@import "../../styles.scss";
+
+.topnav {
+
+    background-color: #28A2FF;
+    background-image: img src="../../assets/Interfacewerk.svg";
+    color: white;
+    display: grid;
+    font-size: 30px;
+    font-weight: semi-bold;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 2000px;
+    min-width: 1100px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    height: 80px;
+    white-space: nowrap;
+
+
+    &__center{
+      padding-top: 20px;
+    }
+
+    &__right{
+       float: right;
+       grid-gap: 50px;
+    }
+
+    &__logo {
+      float: left;
+      margin: 10px;
+    }
+
+    &__Ciapa {
+      float: left;
+      padding-top: 20px;
+      text-align: center;
+      width: 40px;
+    }
+
+    &__profile {
+      margin-top: 18px;
+    }
+
+    &__teamcal {
+      margin-top: 18px;
+      margin-left: 50px;
+      margin-right: 100px;
+      white-space: nowrap;
+    }
+
+    &__icon{
+      float:right;
+      white-space: nowrap;
+    }
+
+    &__logout {
+      float: right;
+      margin-top: 12px;
+      margin-right: 10px;
+      white-space: nowrap;
+    }
+
+    &__name {
+      float: right;
+      margin-left: 10px;
+      margin-right: 10px;
+      padding-top: 20px;
+      white-space: nowrap;
+    }
+
+}

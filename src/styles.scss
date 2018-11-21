@@ -1,6 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
-
 //font-styles
-$font-family: Lato;
+
+
+* {
+    background-repeat: no-repeat;
+    border: none;
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 0;
+    text-decoration: none;
+    font-family: Lato;
+
+}
 
 

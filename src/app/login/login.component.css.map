@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACAA,+EAA+E",
     "sources": [
-        "login.component.scss"
+        "login.component.scss",
+        "../../styles.scss"
     ],
     "names": [],
     "file": "login.component.css"

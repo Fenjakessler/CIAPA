@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="79px" height="79px" viewBox="0 0 79 79" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Name-and-Logout-2" transform="translate(1.000000, 2.000000)">
+            <g id="Group" transform="translate(1.000000, 0.000000)">
+                <circle id="Oval" stroke="#FFFFFF" stroke-width="3" fill="#D8D8D8" fill-rule="nonzero" cx="37.5" cy="37.5" r="37.5"></circle>
+                <path d="M56,53.4652046 C43.1604478,59.3765046 30.7350746,59.6452 19,53.4652046 C19,45.8073841 23.2798507,39.0899977 29.630597,36 C31.7014925,37.7465205 34.4626866,38.8213023 37.5,38.8213023 C40.5373134,38.8213023 43.2985075,37.7465205 45.369403,36 C51.5820896,39.2243455 56,45.8073841 56,53.4652046 Z" id="Path" fill="#FFFFFF"></path>
+                <ellipse id="Oval" fill="#FFFFFF" cx="37.5" cy="26" rx="9.5" ry="10"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

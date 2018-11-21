@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACAA,+EAA+E",
     "sources": [
-        "calendar-general.component.scss"
+        "calendar-general.component.scss",
+        "../../styles.scss"
     ],
     "names": [],
     "file": "calendar-general.component.css"

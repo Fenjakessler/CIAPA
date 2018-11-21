@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACAA,+EAA+E",
     "sources": [
-        "vacation-request-accepted.component.scss"
+        "vacation-request-accepted.component.scss",
+        "../../styles.scss"
     ],
     "names": [],
     "file": "vacation-request-accepted.component.css"

@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACAA,+EAA+E",
     "sources": [
-        "profile.component.scss"
+        "profile.component.scss",
+        "../../styles.scss"
     ],
     "names": [],
     "file": "profile.component.css"

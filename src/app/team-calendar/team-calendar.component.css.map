@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACAA,+EAA+E",
     "sources": [
-        "team-calendar.component.scss"
+        "team-calendar.component.scss",
+        "../../styles.scss"
     ],
     "names": [],
     "file": "team-calendar.component.css"
