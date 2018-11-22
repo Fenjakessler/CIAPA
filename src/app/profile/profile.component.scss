@@ -1,1 +1,37 @@
-@import '../../styles.scss'
+@import '../../variables.scss';
+
+.profile{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+
+
+
+
+  &__left {
+    display: grid;
+
+    grid-row-gap: 200px
+
+  }
+
+  &__center {
+    display: grid;
+
+  }
+
+  &__right {
+    display: grid;
+
+  }
+}
+
+.trashbin {
+  height: 75px;
+  width: 75px;
+  background: url(./../../assets/trashbin.svg) no-repeat center;
+  background-color: $red;
+  box-shadow: 0 2px 5px $dark-grey;
+  border-radius: 4px;
+
+}

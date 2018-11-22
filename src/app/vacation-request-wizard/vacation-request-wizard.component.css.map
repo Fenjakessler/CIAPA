@@ -3,7 +3,7 @@
     "mappings": "ACAA,+EAA+E",
     "sources": [
         "vacation-request-wizard.component.scss",
-        "../../styles.scss"
+        "../../variables.scss"
     ],
     "names": [],
     "file": "vacation-request-wizard.component.css"

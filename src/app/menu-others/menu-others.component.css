@@ -1,2 +1,98 @@
 /* You can add global styles to this file, and also import other style files */
+.topnav {
+  background-color: #28a2ff;
+  color: #ffffff;
+  display: -ms-grid;
+  display: grid;
+  font-size: 40px;
+  font-weight: semi-bold;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  min-width: 1300px;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  height: 102px;
+  white-space: nowrap;
+}
+
+.topnav__left {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100px 1fr;
+      grid-template-columns: 100px 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.topnav__center {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  grid-column-gap: 50px;
+  margin-left: 50px;
+}
+
+.topnav__right {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 90px minmax(90px, 400px) 90px;
+      grid-template-columns: 90px minmax(90px, 400px) 90px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 100px;
+  grid-column-gap: 25px;
+}
+
+.topnav__logo {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.topnav__Ciapa {
+  padding-left: 25px;
+  text-align: left;
+}
+
+.topnav__profile {
+  text-align: right;
+}
+
+.topnav__teamcal {
+  white-space: nowrap;
+}
+
+.topnav__vacation {
+  text-align: left;
+}
+
+.topnav__icon {
+  padding-top: 8px;
+}
+
+.topnav__logout {
+  padding-right: 10px;
+}
+
+.topnav__name {
+  text-align: left;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
 /*# sourceMappingURL=menu-others.component.css.map */

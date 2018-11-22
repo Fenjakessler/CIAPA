@@ -3,7 +3,7 @@
     "mappings": "ACAA,+EAA+E",
     "sources": [
         "team-calendar.component.scss",
-        "../../styles.scss"
+        "../../variables.scss"
     ],
     "names": [],
     "file": "team-calendar.component.css"

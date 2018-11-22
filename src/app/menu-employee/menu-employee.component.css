@@ -1,38 +1,98 @@
 /* You can add global styles to this file, and also import other style files */
-* {
-  background-repeat: no-repeat;
-  border: none;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  list-style: none;
-  margin: 0;
-  outline: none;
-  padding: 0;
-  text-decoration: none;
-  font-family: Lato;
+.topnav {
+  background-color: #28a2ff;
+  color: #ffffff;
+  display: -ms-grid;
+  display: grid;
+  font-size: 40px;
+  font-weight: semi-bold;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  min-width: 1300px;
+  text-align: center;
+  width: 100%;
+  height: 102px;
+  white-space: nowrap;
 }
 
-.topnav {
-  background-color: #28A2FF;
-  background-image: img src= "../../assets/Interfacewerk.svg";
-  color: white;
-  float: left;
-  text-align: center;
-  text-decoration: none;
-  font-size: 35px;
-  width: 100%;
-  height: 80px;
+.topnav__left {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100px 1fr;
+      grid-template-columns: 100px 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.topnav__center {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+  margin-left: 50px;
+}
+
+.topnav__right {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 90px minmax(90px, 400px) 90px;
+      grid-template-columns: 90px minmax(90px, 400px) 90px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 100px;
+  grid-column-gap: 25px;
 }
 
 .topnav__logo {
-  float: left;
-  margin: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
 }
 
 .topnav__Ciapa {
-  float: left;
-  margin-top: 18px;
-  text-align: center;
-  width: 40px;
+  padding-left: 25px;
+  text-align: left;
+}
+
+.topnav__profile {
+  text-align: right;
+}
+
+.topnav__teamcal {
+  white-space: nowrap;
+}
+
+.topnav__vacation {
+  text-align: left;
+}
+
+.topnav__icon {
+  padding-top: 8px;
+}
+
+.topnav__logout {
+  padding-right: 10px;
+}
+
+.topnav__name {
+  text-align: left;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 /*# sourceMappingURL=menu-employee.component.css.map */

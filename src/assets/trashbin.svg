@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="47px" viewBox="0 0 45 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-16.0%" y="-16.0%" width="132.0%" height="132.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="trashbin" transform="translate(-15.000000, -16.000000)" fill="#FFFFFF">
+            <g id="Group-Copy" filter="url(#filter-1)">
+                <g id="noun_Trash_2025406_000000" transform="translate(19.000000, 18.000000)">
+                    <g id="Group">
+                        <path d="M35.5894019,6.07705016 L25.2091596,6.07705016 L25.2091596,4.32496249 C25.2091596,2.12466633 23.3967364,0.331832433 21.1723988,0.331832433 L15.4055976,0.331832433 C13.1812599,0.331832433 11.3688367,2.12466633 11.3688367,4.32496249 L11.3688367,6.07705016 L0.988594496,6.07705016 C0.453105811,6.07705016 -2.13162821e-14,6.52525864 -2.13162821e-14,7.05495957 C-2.13162821e-14,7.58466049 0.453105811,9 0.988594496,9 L4,9 L6.13752416,38.0628368 C6.1787156,38.5925377 6.63182141,39 7.12611866,39 L29.4930691,39 C30.0285578,39 30.4404722,38.5925377 30.4816636,38.0628368 L33,9 L35.5894019,9 C36.1248905,9 36.5779963,7.58466049 36.5779963,7.05495957 C36.5779963,6.52525864 36.166082,6.07705016 35.5894019,6.07705016 Z M13.5,4.24226447 C13.5,3.18957743 14.3671171,2.33183243 15.4313063,2.33183243 L20.9493243,2.33183243 C22.0135135,2.33183243 22.8806306,3.18957743 22.8806306,4.24226447 L22.8806306,5.91876605 L13.5,5.91876605 L13.5,4.24226447 Z M27.4811341,36.089568 L9.515527,36.089568 L7.67567568,9.36880927 L29.2849099,9.36880927 L27.4811341,36.089568 Z" id="Shape" fill-rule="nonzero"></path>
+                        <path d="M15.5,30 C16.3125,30 17,29.5564516 17,29.0322581 L17,15.9677419 C17,15.4435484 16.3125,15 15.5,15 C14.6875,15 14,15.4435484 14,15.9677419 L14,29.0322581 C14,29.5564516 14.6875,30 15.5,30 Z" id="Path"></path>
+                        <path d="M21.5019714,30 C22.3134035,30 23,29.5564516 23,29.0322581 L23,15.9677419 C23,15.4435484 22.3134035,15 21.5019714,15 C20.6905392,15 20.0039427,15.4435484 20.0039427,15.9677419 L20.0039427,29.0322581 C19.9415249,29.5564516 20.6281213,30 21.5019714,30 Z" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

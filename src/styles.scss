@@ -1,6 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-//font-styles
-
+@import "./variables.scss";
 
 * {
     background-repeat: no-repeat;
@@ -12,7 +11,42 @@
     padding: 0;
     text-decoration: none;
     font-family: Lato;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: semi-bold;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: semi-bold;
 
 }
 
+p {
+    font-size: 35px;
+}
 
+.button {
+    box-shadow: 0 2px 5px $dark-grey;
+    border-radius: 4px;
+    font-size: 35px;
+    font-weight: semi-bold;
+    height: 75px;
+    width: 193px;
+    color: $white;
+
+    &__continue {
+        background-color: $blue;
+    }
+
+    &__new-vacation {
+        background-color: $dark-green;
+        margin: 50px 50px;
+        width: 320px;
+        float: right;
+    }
+}
+
+// $media-small: "only screen and (max-width : 1250px)";

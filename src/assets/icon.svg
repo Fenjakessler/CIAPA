@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="79px" height="79px" viewBox="0 0 79 79" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="84px" height="84px" viewBox="0 0 84 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
-    <title>Group</title>
+    <title>icon</title>
     <desc>Created with Sketch.</desc>
-    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Name-and-Logout-2" transform="translate(1.000000, 2.000000)">
-            <g id="Group" transform="translate(1.000000, 0.000000)">
-                <circle id="Oval" stroke="#FFFFFF" stroke-width="3" fill="#D8D8D8" fill-rule="nonzero" cx="37.5" cy="37.5" r="37.5"></circle>
-                <path d="M56,53.4652046 C43.1604478,59.3765046 30.7350746,59.6452 19,53.4652046 C19,45.8073841 23.2798507,39.0899977 29.630597,36 C31.7014925,37.7465205 34.4626866,38.8213023 37.5,38.8213023 C40.5373134,38.8213023 43.2985075,37.7465205 45.369403,36 C51.5820896,39.2243455 56,45.8073841 56,53.4652046 Z" id="Path" fill="#FFFFFF"></path>
-                <ellipse id="Oval" fill="#FFFFFF" cx="37.5" cy="26" rx="9.5" ry="10"></ellipse>
-            </g>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon" transform="translate(2.000000, 2.000000)">
+            <circle id="Oval" stroke="#FFFFFF" stroke-width="3" fill="#D8D8D8" cx="40" cy="40" r="40"></circle>
+            <path d="M59.7333333,57.0295516 C46.037811,63.3349382 32.7840796,63.6215467 20.2666667,57.0295516 C20.2666667,48.8612097 24.8318407,41.6959975 31.6059701,38.4 C33.8149253,40.2629552 36.760199,41.4093891 40,41.4093891 C43.239801,41.4093891 46.1850747,40.2629552 48.3940299,38.4 C55.0208956,41.8393019 59.7333333,48.8612097 59.7333333,57.0295516 Z" id="Path" fill="#FFFFFF"></path>
+            <ellipse id="Oval" fill="#FFFFFF" cx="40" cy="27.7333333" rx="10.1333333" ry="10.6666667"></ellipse>
         </g>
     </g>
 </svg>

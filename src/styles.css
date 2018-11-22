@@ -1,4 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
 * {
   background-repeat: no-repeat;
   border: none;
@@ -10,5 +11,41 @@
   padding: 0;
   text-decoration: none;
   font-family: Lato;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: semi-bold;
+}
+
+h2 {
+  font-size: 35px;
+  font-weight: semi-bold;
+}
+
+p {
+  font-size: 35px;
+}
+
+.button {
+  -webkit-box-shadow: 0 2px 5px #979797;
+          box-shadow: 0 2px 5px #979797;
+  border-radius: 4px;
+  font-size: 35px;
+  font-weight: semi-bold;
+  height: 75px;
+  width: 193px;
+  color: #ffffff;
+}
+
+.button__continue {
+  background-color: #28a2ff;
+}
+
+.button__new-vacation {
+  background-color: #1f9e82;
+  margin: 50px 50px;
+  width: 320px;
+  float: right;
 }
 /*# sourceMappingURL=styles.css.map */

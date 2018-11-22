@@ -1,2 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+.profile {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr 1fr;
+      grid-template-columns: 1fr 2fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+}
+
+.profile__left {
+  display: -ms-grid;
+  display: grid;
+  grid-row-gap: 200px;
+}
+
+.profile__center {
+  display: -ms-grid;
+  display: grid;
+}
+
+.profile__right {
+  display: -ms-grid;
+  display: grid;
+}
+
+.trashbin {
+  height: 75px;
+  width: 75px;
+  background: url(./../../assets/trashbin.svg) no-repeat center;
+  background-color: #cf5757;
+  -webkit-box-shadow: 0 2px 5px #979797;
+          box-shadow: 0 2px 5px #979797;
+  border-radius: 4px;
+}
 /*# sourceMappingURL=profile.component.css.map */
