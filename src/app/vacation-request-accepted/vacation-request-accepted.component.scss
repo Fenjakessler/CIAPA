@@ -1,1 +1,17 @@
 @import '../../variables.scss';
+
+.request-sent{
+  display: overflow;
+  margin-top: 312px;
+  margin-left: 390px;
+  margin-right: 390px;
+  text-align: center;
+
+&__heading{
+  font-size: 56px;
+}
+
+&__status{
+  font-size: 40px;
+}
+}
