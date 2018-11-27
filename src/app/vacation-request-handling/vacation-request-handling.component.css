@@ -1,2 +1,97 @@
 /* You can add global styles to this file, and also import other style files */
+.new-vac {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.7fr 1fr 0.7fr;
+      grid-template-columns: 0.7fr 1fr 0.7fr;
+  -ms-grid-rows: 0.8fr 1fr 3fr 3fr;
+      grid-template-rows: 0.8fr 1fr 3fr 3fr;
+  margin: 55px;
+}
+
+.new-vac__remaining-vac {
+  color: #d8d8d8;
+  margin-right: 55px;
+}
+
+.new-vac__description {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+}
+
+.new-vac__replacements {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3/4;
+  text-align: left;
+  font-size: 32px;
+  border: 1px solid #979797;
+  border-collapse: collapse;
+  margin-top: 100px;
+}
+
+.new-vac__heading {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  padding: 30px;
+  border: 1px solid #979797;
+}
+
+.new-vac__number-selected {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3/4;
+  text-align: right;
+  color: #d8d8d8;
+}
+
+.new-vac__cell1 {
+  padding: 30px;
+  color: #7E19A1;
+  font-weight: bold;
+  border: 1px solid #979797;
+}
+
+.new-vac__cell2 {
+  padding: 30px;
+  color: #7AA8DE;
+  font-weight: bold;
+  border: 1px solid #979797;
+}
+
+.new-vac__cell2--radio, .new-vac__cell1--radio {
+  width: 30px;
+  height: 30px;
+}
+
+.new-vac__buttons {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 200px;
+      grid-template-columns: 1fr 200px;
+  grid-column-gap: 15px;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+  -ms-grid-row: 4;
+  grid-row: 4/4;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  justify-items: end;
+}
 /*# sourceMappingURL=vacation-request-handling.component.css.map */

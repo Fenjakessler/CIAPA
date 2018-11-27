@@ -1,2 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+.request-sent {
+  display: overflow;
+  margin-top: 312px;
+  margin-left: 390px;
+  margin-right: 390px;
+  text-align: center;
+}
+
+.request-sent__heading {
+  font-size: 56px;
+}
+
+.request-sent__status {
+  font-size: 40px;
+}
 /*# sourceMappingURL=vacation-request-accepted.component.css.map */

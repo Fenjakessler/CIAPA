@@ -1,12 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import "./variables.scss";
 
-/* Mixin */
-@mixin grid-columns {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    display: grid;
-}
+
 
 * {
     background-repeat: no-repeat;

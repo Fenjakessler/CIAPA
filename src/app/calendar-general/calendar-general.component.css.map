@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "ACAA,+EAA+E",
+    "mappings": "ACAA,+EAA+E;ADE/E,AAAA,eAAe,CAAC;EACd,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,+BAA+B;EACtD,kBAAkB,EAAE,OAAO;EAC3B,MAAM,EAAE,IAAI;CACb",
     "sources": [
         "calendar-general.component.scss",
         "../../variables.scss"

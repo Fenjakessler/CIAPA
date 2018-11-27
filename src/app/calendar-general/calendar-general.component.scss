@@ -1,1 +1,127 @@
-@import '../../variables.scss';
+@import "../../variables.scss";
+@import "../../mixins.scss";
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1.5fr 7fr;
+    grid-template-rows: 115px 100px 8fr;
+    margin: 55px;
+    white-space: nowrap;
+    min-width: 1688px;
+
+    &__search-bar {
+        align-items: flex-start;
+        background-color: $light-grey;
+        border-radius: 4px;
+        display: grid;
+        border: 1px solid $dark-grey;
+        color: $dark-grey;
+        font-size: 27px;
+        grid-column: 1/2;
+        height: 63px;
+        width: 337px;
+        padding-left: 15px;
+        padding-right: 15px;
+        position: relative;
+    }
+
+    &__loupe-button {
+        background: url(./../../assets/loupe.svg) no-repeat;
+        background-size: 40px 40px;
+        background-position: center;
+        width: 40px;
+        height: 40px;
+        z-index: 2;
+        position: absolute;
+        margin-top: -50px;
+        margin-left: 290px;
+    }
+
+    &__current-date {
+        border: 1px solid $dark-grey;
+        color: $dark-grey;
+        display: grid;
+        font-size: 35px;
+        text-align: center;
+        grid-column: 3/3;
+        grid-row: 1/1;
+        height: 63px;
+        width: 132px;
+        justify-items: center;
+    }
+
+    &__current-week {
+        color: $dark-grey;
+        display: grid;
+        grid-column: 2/7;
+        grid-row: 1/2;
+        justify-content: center;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 10px;
+        white-space: nowrap;
+    }
+
+    &__week{
+        border-bottom: 1px solid $dark-grey;
+        border-right: 1px solid $dark-grey;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        display: grid;
+        grid-column: 2/9;
+        grid-row: 2/8;
+        font-size: 27px;
+        justify-items: center;
+        overflow: auto -webkit-paged-x;
+    }
+
+    &__weekday {
+        display: grid;
+        border-left: 1px solid $dark-grey;
+        width: 310px;
+        justify-items: center;
+    }
+
+    &__weekend {
+        display: grid;
+        border-left: 1px solid $dark-grey;
+        width: 310px;
+        justify-items: center;
+        color: $red;
+    }
+
+    &__person-list {
+        border-top: 1px solid $dark-grey;
+        border-left: 1px solid $dark-grey;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-column: 1/7;
+        grid-row: 3/8;
+        color: $dark-grey;
+        font-size: 25px;
+        overflow: auto -webkit-paged-y;
+    }
+
+    &__person {
+        border-bottom: 1px solid $dark-grey;
+        padding: 20px;
+    }
+
+    &__name {
+
+       overflow:hidden;
+       white-space: nowrap;
+       text-overflow: ellipsis;
+       font-weight:bold;
+       width: 300px;
+    }
+
+
+    // &__week-table {
+    //     border-left: 1px solid $dark-grey;
+    //     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    //     grid-column: 2/7;
+    //     grid-row: 3/9;
+    //     padding: 20px;
+    // }
+}

@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 /* You can add global styles to this file, and also import other style files */
+/* Mixin */
 * {
   background-repeat: no-repeat;
   border: none;
@@ -42,9 +43,19 @@ p {
   background-color: #28a2ff;
 }
 
+.button__back {
+  background-color: #ff793f;
+}
+
+.button__cancel {
+  background-color: #ffffff;
+  color: #cf5757;
+  -ms-grid-column-align: right;
+      justify-self: right;
+}
+
 .button__new-vacation {
   background-color: #1f9e82;
-  margin: 50px 50px;
   width: 320px;
   float: right;
 }

@@ -5,40 +5,50 @@
     36days
   </h2>
 
-  <h1 class="new-vac__heading">Name replacements</h1>
+  <h1 class="new-vac__headline">Name replacements</h1>
   <p class="new-vac__description">
     Please select a replacement for each project you are working on
   </p>
+
   <button class="button button__cancel">Cancel</button>
+  <p class="new-vac__number-selected">(0/2)</p>
 
   <table class="new-vac__replacements">
+    <tr class="new-vac__heading">
+      <th class="new-vac__heading new-vac__heading--name">Name
+      </th>
+      <th class="new-vac__heading new-vac__heading--vollmer-hmi">
+        Vollmer HMI
+      </th>
+      <th class="new-vac__heading new-vac__heading--mtdcm">MT DCM</th>
+    </tr>
 
-      <tr>
-          <th class="new-vac__name">Name</th>
-          <th>Vollmer HMI</th>
-          <th>MT DCM</th>
-      </tr>
-      <tr>
-          <td class="new-vac__name-asset">Asset Ismagambetov</td>
-          <td>Maria Anders</td>
-          <td>Germany</td>
-      </tr>
-       <tr>
-          <td class="new-vac__name-anna">Anna Rieder</td>
-          <td>Christina Berglund</td>
-          <td>Sweden</td>
-      </tr>
+    <tr class="new-vac__cell1">
+      <td class="new-vac__cell1 new-vac__cell1--name-asset">
+        Asset Ismagambetov
+      </td>
+      <td class="new-vac__cell1 new-vac__cell1--radio">
+        <input type="radio"class="new-vac__cell1--radio" />
+      </td>
+      <td class="new-vac__cell1 new-vac__cell1--radio">
+        <input type="radio"class="new-vac__cell1--radio" />
+      </td>
+    </tr>
 
+    <tr class="new-vac__cell2">
+      <td class="new-vac__cell2 new-vac__cell2--name-anna">Anna Rieder</td>
 
-
+      <td class="new-vac__cell2 new-vac__cell2--radio">
+        <input type="radio" class="new-vac__cell2--radio" />
+      </td>
+      <td class="new-vac__cell2 new-vac__cell2--radio">
+        <input type="radio"class="new-vac__cell2--radio" />
+      </td>
+    </tr>
   </table>
 
-
-
-  <div class= "new-vac__buttons">
-  <button class="button button__back">Back</button>
-  <button class="button button__continue">Continue</button>
+  <div class="new-vac__buttons">
+    <button class="button button__back">Back</button>
+    <button class="button button__continue">Continue</button>
   </div>
-
-
 </form>
