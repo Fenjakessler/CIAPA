@@ -3,55 +3,55 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: 1.5fr repeat(7, 1fr);
-    grid-template-rows: 115px 100px repeat(5, 1fr);
-    margin: 55px;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 150px 100px repeat(5, 1fr);
+    margin-top: 55px;
     white-space: nowrap;
     min-width: 1688px;
 }
 
 .search {
-  grid-column: 1/2;
-  grid-row: 1/3;
-  border-right: 1px solid $dark-grey;
+    grid-column: 1/2;
+    grid-row: 1/3;
+    border-right: 1px solid $dark-grey;
 
     &__search-bar {
-      align-items: flex-start;
-      background-color: $light-grey;
-      border-radius: 4px;
-      display: grid;
-      border: 1px solid $dark-grey;
-      color: $dark-grey;
-      font-size: 27px;
-
-      height: 63px;
-      width: 337px;
-      padding-right: 45px;
-      padding-left: 15px;
-      position: relative;
-  }
+        align-items: flex-start;
+        background-color: $light-grey;
+        border-radius: 4px;
+        display: grid;
+        border: 1px solid $dark-grey;
+        color: $dark-grey;
+        font-size: 27px;
+        margin-right: 20px;
+        margin-left: 20px;
+        height: 63px;
+        width: 337px;
+        padding-right: 45px;
+        padding-left: 15px;
+        position: relative;
+    }
 
     &__loupe-button {
-      background: url(./../../assets/loupe.svg) no-repeat;
-      background-size: 40px 40px;
-      background-position: center;
-      width: 40px;
-      height: 40px;
-      z-index: 2;
-      position: absolute;
-      margin-top: -50px;
-      margin-left: 290px;
-  }
+        background: url(./../../assets/loupe.svg) no-repeat;
+        background-size: 40px 40px;
+        background-position: center;
+        width: 40px;
+        height: 40px;
+        z-index: 2;
+        position: absolute;
+        margin-top: -50px;
+        margin-left: 290px;
+    }
 }
 
 .current-date {
     border: 1px solid $dark-grey;
-
     color: $dark-grey;
     display: grid;
     font-size: 35px;
     text-align: center;
-    grid-column: 3/3;
+    grid-column: 7/8;
     grid-row: 1/1;
     height: 63px;
     width: 132px;
@@ -61,7 +61,7 @@
 .current-week {
     color: $dark-grey;
     display: grid;
-    grid-column: 2/7;
+    grid-column: 2/9;
     grid-row: 1/2;
     justify-content: center;
     margin-left: 30px;
@@ -84,68 +84,80 @@
 
     &__day {
         display: grid;
-        border-right: 1px solid $dark-grey;
         justify-items: center;
+        grid-column: span 1;
+        grid-row: 2/3;
+        font-size: 27px;
     }
 
     &__day--weekend {
+        display: grid;
         color: $red;
+        grid-row: 2/3;
+        grid-column: span 1;
     }
 
-    &__calendar{
-      grid-row:2/3;
-      grid-column: 1/8;
-      background-color: steelblue;
+    &__calendar {
+        border-top: 1px solid $dark-grey;
+        border-right: 1px solid $dark-grey;
+        border-bottom: 1px solid $dark-grey;
+        grid-column: 2/9;
+        grid-row: 3/9;
+
+        &__calendar-day {
+            grid-row: span 1;
+            grid-column: span 1;
+            border-right: 1px solid $dark-grey;
+        }
     }
 }
 
 .person-list {
-    border-top: 1px solid $dark-grey;
-    border-left: 1px solid $dark-grey;
-    border-right: 1px solid $dark-grey;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-column: 1/2;
     grid-row: 3/8;
     color: $dark-grey;
     font-size: 25px;
+    border-top: 1px solid $dark-grey;
+    border-left: 1px solid $dark-grey;
+    border-right: 1px solid $dark-grey;
 
     &__person {
         @include text-ellipsis;
-        grid-column: 1/1;
-        border-bottom: 1px solid $dark-grey;
+
+        grid-row: span 1;
+        grid-column: 1/2;
         padding: 20px;
-        height: 125px;
+        border-bottom: 1px solid $dark-grey;
     }
 
-        &__name--Anna {
-            color: $red;
-            font-weight: bold;
-        }
+    &__name--Anna {
+        color: $red;
+        font-weight: bold;
+    }
 
-        &__name--Gabriel {
-            color: #8BB360;
-            font-weight: bold;
-        }
+    &__name--Gabriel {
+        color: #8BB360;
+        font-weight: bold;
+    }
 
-        &__name--Matthias {
-            color: #36669E;
-            font-weight: bold;
-        }
+    &__name--Matthias {
+        color: #36669E;
+        font-weight: bold;
+    }
 
-        &__name--Moritz {
-            color: #E09313;
-            font-weight: bold;
-        }
+    &__name--Moritz {
+        color: #E09313;
+        font-weight: bold;
+    }
 
-        &__name--Elli {
-            color: #417505;
-            font-weight: bold;
-        }
+    &__name--Elli {
+        color: #417505;
+        font-weight: bold;
+    }
 
-        &__name--Anna-R {
-            color: #7E19A1;
-            font-weight: bold;
-        }
-
+    &__name--Anna-R {
+        color: #7E19A1;
+        font-weight: bold;
+    }
 }
