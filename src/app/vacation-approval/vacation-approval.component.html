@@ -28,40 +28,12 @@
 
 
 
-    <div class="grid-container">
+   <app-team-calendar></app-team-calendar>
 
-        <h3 class="current-week">&#10094;  Jan 07 - Jan 13, 2019 &#10095;</h3>
-
-
-        <h3 class="week__day"> </h3>
-        <h3 class="week__day">Monday<br> 07</h3>
-        <h3 class="week__day">Tuesday <br>08</h3>
-        <h3 class="week__day">Wednesday <br>09</h3>
-        <h3 class="week__day">Thursday <br>10</h3>
-        <h3 class="week__day">Friday<br> 11</h3>
-        <h3 class="week__day week__day--weekend">Saturday<br> 12</h3>
-        <h3 class="week__day week__day--weekend">Sunday<br> 13</h3>
-
-        <div class="calendar calendar__day-monday"></div>
-        <div class="calendar calendar__day-tuesday"></div>
-        <div class="calendar calendar__day-wednesday"></div>
-        <div class="calendar calendar__day-thursday"></div>
-        <div class="calendar calendar__day-friday"></div>
-        <div class="calendar calendar__day-saturday"></div>
-        <div class="calendar calendar__day-sunday"></div>
-
-        <div class="on-vacation">on vacation (accepted)</div>
-
-        <li class="person-list__person"><span class="person-list__name--Anna">Anna Linke</span><br>UX Designer</li>
-        <li class="person-list__person"><span class="person-list__name--Gabriel">Gabriel Bradersky </span><br>Developer</li>
-
-
-
-        <h3 class="show-more-members">
-          show more team members
-        <button class="button-arrow"></button>
-        </h3>
-        </div>
+        <section class="comment-approval">
+          <p class="approval-note">Comment (this will be sent to the applicant)</p>
+          <input class="approval-text" type="text" placeholder="your request has been accepted">
+        </section>
 
         <app-button-accept-decline></app-button-accept-decline>
 

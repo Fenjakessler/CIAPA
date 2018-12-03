@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,+EAA+E;ADE/E,AAAA,OAAO,CAAC;EACN,UAAU,EAAE,CAAC,CAAC,GAAG,CAAC,GAAG,CCQX,OAAO;EDPjB,aAAa,EAAE,GAAG;EAClB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,SAAS;EACtB,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,KAAK;EACZ,KAAK,ECAC,OAAO;EDCb,WAAW,EAAE,IAAI;EACjB,KAAK,EAAE,KAAK;EACZ,UAAU,EAAC,KAAK;CAcjB;;AAXI,AAAD,eAAS,CAAC;EACN,gBAAgB,ECVX,OAAO;EDWZ,YAAY,EAAC,IAAI;CAEpB;;AAEA,AAAD,gBAAU,CAAC;EACP,gBAAgB,ECdlB,OAAO;CDiBR",
+    "sources": [
+        "button-accept-decline.component.scss",
+        "../../variables.scss"
+    ],
+    "names": [],
+    "file": "button-accept-decline.component.css"
+}

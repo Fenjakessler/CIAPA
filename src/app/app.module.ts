@@ -7,7 +7,6 @@ import { TeamCalendarComponent } from './team-calendar/team-calendar.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
-import { CalendarGeneralComponent } from './calendar-general/calendar-general.component';
 import { LoginComponent } from './login/login.component';
 import { MenuEmployeeComponent } from './menu-employee/menu-employee.component';
 import { MenuOthersComponent } from './menu-others/menu-others.component';
@@ -20,7 +19,6 @@ import { ButtonContinueBackComponent } from './button-continue-back/button-conti
 @NgModule({
   declarations: [
     AppComponent,
-    CalendarGeneralComponent,
     LoginComponent,
     MenuEmployeeComponent,
     MenuOthersComponent,

@@ -58,7 +58,7 @@
 
 .grid-container__trashbin {
   background: url(./../../assets/trashbin.svg) no-repeat center;
-  background-color: #cf5757;
+  background-color: #B61414;
   -webkit-box-shadow: 0 2px 5px #979797;
           box-shadow: 0 2px 5px #979797;
   border-radius: 4px;

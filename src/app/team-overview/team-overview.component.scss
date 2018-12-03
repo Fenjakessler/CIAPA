@@ -36,6 +36,7 @@
 
     &__loupe-button {
         background: url(./../../assets/loupe.svg) no-repeat;
+        background-color: $light-grey;
         background-size: 40px 40px;
         background-position: center;
         width: 40px;
@@ -43,7 +44,8 @@
         z-index: 2;
         position: absolute;
         margin-top: -50px;
-        margin-left: 290px;
+        margin-left: 295px;
+        padding-left:20px;
     }
 }
 
@@ -170,7 +172,7 @@
     }
 
     &__name--Gabriel {
-        color: #8BB360;
+        color: #98C2E2;
         font-weight: bold;
     }
 
@@ -185,7 +187,7 @@
     }
 
     &__name--Elli {
-        color: #417505;
+        color:#4d635c;
         font-weight: bold;
     }
 
