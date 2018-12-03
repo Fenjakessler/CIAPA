@@ -1,0 +1,25 @@
+@import "../../variables.scss";
+
+.button {
+    box-shadow: 0 2px 5px $dark-grey;
+    border-radius: 4px;
+    font-size: 35px;
+    font-weight: semi-bold;
+    height: 75px;
+    width: 193px;
+    color: $white;
+    margin-left: 15px;
+    float: right;
+    margin-top:100px;
+
+    &__continue {
+        background-color: $blue;
+        margin-right:55px;
+
+    }
+
+    &__back {
+        background-color: $orange;
+
+    }
+}

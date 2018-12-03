@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="31px" viewBox="0 0 50 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <g id="Group-2">
+                <g id="Group-3">
+                    <g id="button-arrow" transform="translate(0.000000, 6.000000)">
+                        <g id="Arrow" transform="translate(25.000000, 18.500000) rotate(90.000000) translate(-25.000000, -18.500000) translate(6.500000, -6.500000)">
+                            <rect id="Bound" x="0.5" y="0.5" width="36" height="45"></rect>
+                            <polygon id="Shape" fill="#1F9E82" points="3.98264136 5 0.000405094033 9.26311124 17.030264 27.4999796 0 45.7368888 3.98223626 50 25 27.4997834"></polygon>
+                        </g>
+                    </g>
+                    <path d="M0.5,0.5 L0.5,5.5 L49,5.5 C49,4.15486297 49,4.04931687 49,3 C49,1.95051991 49,1.84510421 49,0.5 L0.5,0.5 Z" id="Rectangle" stroke="#FFFFFF" fill="#FFFFFF" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

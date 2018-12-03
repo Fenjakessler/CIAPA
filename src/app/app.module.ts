@@ -12,6 +12,9 @@ import { LoginComponent } from './login/login.component';
 import { MenuEmployeeComponent } from './menu-employee/menu-employee.component';
 import { MenuOthersComponent } from './menu-others/menu-others.component';
 import { ProfileComponent } from './profile/profile.component';
+import { VacationApprovalComponent } from './vacation-approval/vacation-approval.component';
+import { ButtonAcceptDeclineComponent } from './button-accept-decline/button-accept-decline.component';
+import { ButtonContinueBackComponent } from './button-continue-back/button-continue-back.component';
 
 
 @NgModule({
@@ -26,7 +29,10 @@ import { ProfileComponent } from './profile/profile.component';
     VacationRequestAcceptedComponent,
     VacationRequestHandlingComponent,
     VacationRequestWizardComponent,
-    TeamOverviewComponent
+    TeamOverviewComponent,
+    VacationApprovalComponent,
+    ButtonAcceptDeclineComponent,
+    ButtonContinueBackComponent
   ],
   imports: [
     BrowserModule

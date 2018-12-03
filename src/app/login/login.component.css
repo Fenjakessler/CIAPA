@@ -39,18 +39,18 @@
   margin-bottom: 20px;
 }
 
-.login__data-field {
+.data-field {
   font-size: 35px;
   font-weight: bold;
   margin-top: 200px;
   margin-right: 200px;
 }
 
-.login__password {
+.data-field__password {
   margin-left: 42px;
 }
 
-.login__textfield {
+.data-field__textfield {
   border: 1px solid #d8d8d8;
   color: #d8d8d8;
   font-size: 35px;
@@ -62,23 +62,23 @@
   width: 547px;
 }
 
-.login ::-webkit-input-placeholder {
+.data-field ::-webkit-input-placeholder {
   color: #d8d8d8;
 }
 
-.login :-ms-input-placeholder {
+.data-field :-ms-input-placeholder {
   color: #d8d8d8;
 }
 
-.login ::-ms-input-placeholder {
+.data-field ::-ms-input-placeholder {
   color: #d8d8d8;
 }
 
-.login ::placeholder {
+.data-field ::placeholder {
   color: #d8d8d8;
 }
 
-.login__email, .login__password {
+.data-field__email, .data-field__password {
   margin-right: 220px;
   margin-bottom: 10px;
 }
