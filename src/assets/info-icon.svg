@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>info-button</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="requested-vacation" transform="translate(-1.000000, -355.000000)" fill="#B61414">
+            <path d="M24,392 L24,375 L28,375 L28,392 L30,392 L30,393 L22,393 L22,392 L24,392 L24,392 Z M26,405 C39.807119,405 51,393.807119 51,380 C51,366.192881 39.807119,355 26,355 C12.192881,355 1,366.192881 1,380 C1,393.807119 12.192881,405 26,405 L26,405 Z M26,403 C38.70255,403 49,392.70255 49,380 C49,367.29745 38.70255,357 26,357 C13.29745,357 3,367.29745 3,380 C3,392.70255 13.29745,403 26,403 L26,403 Z M22,375 L22,376 L24,376 L24,375 L22,375 L22,375 Z M26,373 C27.656854,373 29,371.656854 29,370 C29,368.343146 27.656854,367 26,367 C24.343146,367 23,368.343146 23,370 C23,371.656854 24.343146,373 26,373 L26,373 Z" id="info-button"></path>
+        </g>
+    </g>
+</svg>

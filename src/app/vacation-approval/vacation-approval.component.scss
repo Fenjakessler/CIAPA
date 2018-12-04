@@ -1,22 +1,37 @@
 @import "../../variables.scss";
 @import "../../mixins.scss";
+.arrow {
+
+  background: url(./../../assets/transparent.svg) no-repeat center;
+  font-size: 40px;
+  grid-row: 1/2;
+  justify-self: center;
+  width: 30px;
+  height: 30px;
+  color: black;
+  float: right;
+  margin: 55px;
+
+}
+
+.request-navigation {
+  float: right;
+  font-size: 35px;
+  margin-top: 55px;
+
+}
 
 .open-request {
     position: relative;
-    text-align: center;
-    width: 1400px;
+    text-align: left;
+    width: 900px;
     margin: auto;
 
     &__heading {
-        padding-right: 90px;
+      text-align: left;
+      margin-top: 55px;
     }
 
-    &__navigation {
-        text-align: right;
-        font-size: 35px;
-        margin-top: 50px;
-        margin-left: 100px;
-    }
 
     &__description {
         margin-bottom: 90px;
@@ -26,14 +41,12 @@
     &__summary {
         text-align: left;
         margin: auto;
-        padding-left: 430px;
     }
 }
 
 .confirmation-text {
-    text-align: left;
-    padding-left: 50px;
     margin-top: 80px;
+    margin-bottom: 100px;
 }
 
 .confirmation-button {
@@ -41,9 +54,37 @@
     width: 30px;
     height: 30px;
     margin-top: 5px;
-    margin-left: 350px;
     margin-right: 50px;
+
 }
+
+.comment-approval {
+    margin: auto;
+    width:900px;
+
+
+
+
+&__note {
+    text-align: left;
+    margin-top:100px;
+    padding-bottom: 10px;
+
+}
+
+&__text {
+    border: 1px solid $dark-grey;
+    width:807px;
+    height: 120px;
+    font-size: 27px;
+    color: $dark-grey;
+    text-align: start;
+
+
+    }
+
+  }
+
 
 
 

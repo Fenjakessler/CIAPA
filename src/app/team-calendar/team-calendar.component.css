@@ -6,8 +6,8 @@
   display: grid;
   -ms-grid-columns: (1fr)[8];
       grid-template-columns: repeat(8, 1fr);
-  -ms-grid-rows: 150px 100px (1fr)[5];
-      grid-template-rows: 150px 100px repeat(5, 1fr);
+  -ms-grid-rows: 150px 100px (1fr)[2] 100px;
+      grid-template-rows: 150px 100px repeat(2, 1fr) 100px;
   margin-top: 55px;
   white-space: nowrap;
   min-width: 1688px;
@@ -20,8 +20,8 @@
   display: grid;
   -ms-grid-columns: (1fr)[8];
       grid-template-columns: repeat(8, 1fr);
-  -ms-grid-rows: 150px 100px (1fr)[5];
-      grid-template-rows: 150px 100px repeat(5, 1fr);
+  -ms-grid-rows: 150px 100px (1fr)[2];
+      grid-template-rows: 150px 100px repeat(2, 1fr);
   margin-top: 55px;
   white-space: nowrap;
   min-width: 1688px;
@@ -134,9 +134,6 @@
 }
 
 .arrow {
-  -ms-flex-item-align: start;
-      -ms-grid-row-align: start;
-      align-self: start;
   background: url(./../../assets/transparent.svg) no-repeat center;
   font-size: 35px;
   -ms-grid-row: 1;
@@ -365,71 +362,71 @@
   color: #979797;
 }
 
-.person-list__name--Anna {
+.person-list__person--compact {
+  display: none;
+}
+
+.person-list__name1 {
   color: #B61414;
   font-weight: bold;
 }
 
-.person-list__name--Gabriel {
+.person-list__name2 {
   color: #98C2E2;
   font-weight: bold;
 }
 
-.person-list__name--Matthias {
+.person-list__name3 {
   color: #36669E;
   font-weight: bold;
 }
 
-.person-list__name--Moritz {
+.person-list__name3--compact {
+  visibility: hidden;
+}
+
+.person-list__name4 {
   color: #E09313;
   font-weight: bold;
 }
 
-.person-list__name--Elli {
+.person-list__name4--compact {
+  visibility: hidden;
+}
+
+.person-list__name5 {
   color: #4d635c;
   font-weight: bold;
 }
 
-.person-list__name--Anna-R {
+.person-list__name5--compact {
+  visibility: hidden;
+}
+
+.person-list__name6 {
   color: #7E19A1;
   font-weight: bold;
 }
 
-.person-list-calendar-request__person {
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  grid-row: span 1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 1;
-  grid-column: 1/2;
-  padding: 20px;
-  border-bottom: 1px solid #979797;
-  border-right: 1px solid #979797;
-  font-size: 32px;
-  color: #979797;
-}
-
-.person-list-calendar-request__name--Anna {
-  color: #B61414;
-  font-weight: bold;
-}
-
-.person-list-calendar-request__name--Gabriel {
-  color: #98C2E2;
-  font-weight: bold;
+.person-list__name6--compact {
+  visibility: hidden;
 }
 
 .show-more-members {
   -ms-grid-column: 1;
   -ms-grid-column-span: 8;
   grid-column: 1/9;
+  -ms-grid-row: 5;
+  grid-row: 5/5;
   text-align: center;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
   padding-left: 150px;
-  border-top: 1px solid #979797;
+}
+
+.show-more-members--compact {
+  height: 100px;
 }
 
 .button-arrow {
@@ -442,8 +439,5 @@
   -ms-flex-item-align: end;
       -ms-grid-row-align: end;
       align-self: end;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
 }
 /*# sourceMappingURL=team-calendar.component.css.map */

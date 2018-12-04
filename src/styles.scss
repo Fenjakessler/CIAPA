@@ -1,8 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import "./variables.scss";
 
-
-
 * {
     background-repeat: no-repeat;
     border: none;
@@ -27,12 +25,13 @@ h2 {
 
 h3 {
     font-size: 27px;
-    font-weight:normal;
+    font-weight: normal;
 }
 
 h4 {
     font-size: 20px;
 }
+
 p {
     font-size: 35px;
 }
@@ -46,30 +45,43 @@ p {
     width: 193px;
     color: $white;
 
-
     &__continue {
         background-color: $blue;
-
     }
 
-    &__back{
-      background-color: $orange;
+    &__back {
+        background-color: $orange;
     }
 
-    &__cancel{
-      background-color: $white;
-      color: $red;
-      justify-self: right;
-
+    &__cancel {
+        background-color: $white;
+        color: $red;
+        justify-self: right;
     }
 
     &__new-vacation {
         background-color: $dark-green;
         width: 320px;
         float: right;
+    }
+}
+
+.button-arrow {
+    background: url(./assets/button-arrow.svg) no-repeat center;
+    width: 50px;
+    grid-column: 5/6;
+    height: 30px;
+    align-self: end;
+    position:absolute;
+
+    &__flipped {
+      background: url(./assets/button-arrow-flipped.svg) no-repeat center;
+      height: 40px;
+      width: 50px;
+      position:absolute;
+
+
 
 
     }
 }
-
-// $media-small: "only screen and (max-width : 1250px)";

@@ -2,7 +2,6 @@
 import { TeamOverviewComponent } from './team-overview/team-overview.component';
 import { VacationRequestWizardComponent } from './vacation-request-wizard/vacation-request-wizard.component';
 import { VacationRequestHandlingComponent } from './vacation-request-handling/vacation-request-handling.component';
-import { VacationRequestAcceptedComponent } from './vacation-request-accepted/vacation-request-accepted.component';
 import { TeamCalendarComponent } from './team-calendar/team-calendar.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -24,7 +23,6 @@ import { ButtonContinueBackComponent } from './button-continue-back/button-conti
     MenuOthersComponent,
     ProfileComponent,
     TeamCalendarComponent,
-    VacationRequestAcceptedComponent,
     VacationRequestHandlingComponent,
     VacationRequestWizardComponent,
     TeamOverviewComponent,

@@ -4,11 +4,10 @@
 .grid-container {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: 150px 100px repeat(5, 1fr);
+    grid-template-rows: 150px 100px repeat(2, 1fr) 100px;;
     margin-top: 55px;
     white-space: nowrap;
     min-width: 1688px;
-
 
 }
 
@@ -17,7 +16,7 @@
   padding-top:50px;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: 150px 100px repeat(5, 1fr);
+  grid-template-rows: 100px 70px repeat(2, 1fr);
   margin-top: 55px;
   white-space: nowrap;
   min-width: 1688px;
@@ -35,6 +34,7 @@
     &--compact {
         visibility: hidden;
     }
+
 
     &__search-bar {
         align-items: flex-start;
@@ -67,21 +67,22 @@
     }
 }
 
-.current-date {
+.button__current-date {
+    background-color: white;
     border: 1px solid $dark-grey;
+    box-shadow: 0 2px 5px $dark-grey;
     color: $dark-grey;
     display: grid;
     font-size: 35px;
     text-align: center;
     grid-column: 7/8;
     grid-row: 1/1;
-    height: 63px;
+    height: 60px;
     width: 132px;
     justify-items: center;
 
     &--compact {
         display: none;
-
     }
 }
 
@@ -92,26 +93,27 @@
     grid-column: 2/9;
     grid-row: 1/2;
     justify-content: center;
-    margin-left: 30px;
-    margin-right: 30px;
     white-space: nowrap;
     font-size: 35px;
+
+
     &--compact{
       grid-column: 5/6;
       grid-row: 1/2;
       justify-self: center;
+      margin-top:5px;
     }
 }
 
 .arrow {
-    align-self: start;
     background: url(./../../assets/transparent.svg) no-repeat center;
     font-size: 35px;
     grid-row: 1/2;
     justify-self: center;
     width: 30px;
-    height: 30px;
+    height: 35px;
     color: black;
+    align-self: flex-start;
 
     &__left {
         grid-column: 4/5;
@@ -137,6 +139,7 @@
             grid-row: 2/3;
         }
     }
+
 
     &__day--weekend {
         display: grid;
@@ -242,7 +245,6 @@
 .person-list {
     &__person {
         @include text-ellipsis;
-
         grid-row: span 1;
         grid-column: 1/2;
         padding: 20px;
@@ -250,76 +252,66 @@
         border-right: 1px solid $dark-grey;
         font-size: 32px;
         color: $dark-grey;
+        &--compact{
+          display:none;
+        }
     }
 
-    &__name--Anna {
+    &__name1 {
         color: $red;
         font-weight: bold;
+
     }
 
-    &__name--Gabriel {
+    &__name2 {
         color: #98C2E2;
         font-weight: bold;
     }
 
-    &__name--Matthias {
+    &__name3 {
         color: #36669E;
         font-weight: bold;
+        &--compact{
+          visibility: hidden;
+        }
     }
 
-    &__name--Moritz {
+    &__name4 {
         color: #E09313;
         font-weight: bold;
+        &--compact{
+          visibility: hidden;
+        }
     }
 
-    &__name--Elli {
+    &__name5 {
         color: #4d635c;
         font-weight: bold;
+        &--compact{
+          visibility: hidden;
+        }
     }
 
-    &__name--Anna-R {
+    &__name6 {
         color: #7E19A1;
         font-weight: bold;
+        &--compact{
+          visibility: hidden;
+        }
     }
 }
 
-.person-list-calendar-request {
-    &__person {
-        @include text-ellipsis;
-
-        grid-row: span 1;
-        grid-column: 1/2;
-        padding: 20px;
-        border-bottom: 1px solid $dark-grey;
-        border-right: 1px solid $dark-grey;
-        font-size: 32px;
-        color: $dark-grey;
-    }
-
-    &__name--Anna {
-        color: $red;
-        font-weight: bold;
-    }
-
-    &__name--Gabriel {
-        color: #98C2E2;
-        font-weight: bold;
-    }
-}
 
 .show-more-members {
   grid-column: 1/9;
+  grid-row:5/5;
   text-align: center;
   align-self: center;
   padding-left: 150px;
-  border-top: 1px solid $dark-grey;
+
+  &--compact{
+    height: 100px;
+  }
 }
 
-.button-arrow {
-  background: url(./../../assets/button-arrow.svg) no-repeat center;
-  width: 50px;
-  grid-column: 5/6;
-  height: 30px;
-  align-self: end;
-  justify-content: right;
-}
+

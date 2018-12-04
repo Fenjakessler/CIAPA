@@ -1,9 +1,14 @@
 <app-menu-others></app-menu-others>
 
+
+
+  <button class="arrow arrow__right">&#10095;</button>
+  <nav class="request-navigation"> request 1/1 </nav>
+  <button class="arrow arrow__left">&#10094;</button>
+
+
 <section class="open-request">
-  <nav class="open-request open-request__navigation">
-    &#10094;&nbsp; request 1/1 &nbsp;&#10095;
-  </nav>
+
   <h1 class="open-request open-request__heading">Open vacation request</h1>
   <h3 class="open-request open-request__description">
     Please accept or decline the following request
@@ -31,11 +36,16 @@
    <app-team-calendar></app-team-calendar>
 
         <section class="comment-approval">
-          <p class="approval-note">Comment (this will be sent to the applicant)</p>
-          <input class="approval-text" type="text" placeholder="your request has been accepted">
+        <p class="comment-approval__note">Comment (this will be sent to the applicant)</p>
+        <textarea class="comment-approval__text" placeholder="your request has been accepted">
+        your vacation request has been accepted!
+        </textarea>
         </section>
 
-        <app-button-accept-decline></app-button-accept-decline>
+
+
+    <app-button-accept-decline></app-button-accept-decline>
+
 
 
 
