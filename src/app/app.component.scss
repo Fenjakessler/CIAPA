@@ -1,1 +1,21 @@
 
+.menu {
+  align-self: end;
+
+}
+.button {
+  float: right;
+  width: 100px;
+  height:50px;
+  color:black;
+  font-size:20px;
+  text-align: bottom;
+  margin-top: 200px;
+}
+
+.app-container {
+  min-width: 1200px;
+  max-width: 1900px;
+  margin: auto;
+
+}

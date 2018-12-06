@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,+EAA+E;ADE/E,AAAA,iBAAiB,CAAA;EACf,MAAM,EAAC,KAAK;EACZ,KAAK,EAAE,KAAK;EACZ,QAAQ,EAAE,QAAQ;CAanB;;AAhBD,AAQA,iBARiB,CAQjB,QAAQ,CAAA;EACN,WAAW,EAAC,KAAK;CAElB;;AAXD,AAYA,iBAZiB,CAYjB,QAAQ,CAAA;EACP,QAAQ,EAAE,QAAQ;EAClB,OAAO,EAAE,CAAC;CACV",
+    "sources": [
+        "remaining-vacation-chart.component.scss",
+        "../../variables.scss"
+    ],
+    "names": [],
+    "file": "remaining-vacation-chart.component.css"
+}

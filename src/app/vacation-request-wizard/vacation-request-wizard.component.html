@@ -1,6 +1,6 @@
 <app-menu-employee></app-menu-employee>
 
-<form class="new-vac">
+<main class="new-vac">
   <h2 class="new-vac__remaining-vac">
     Remaining Vacation:<br />
     36days
@@ -8,7 +8,7 @@
 
   <h1 class="new-vac__heading">Your requested period of time</h1>
 
-  <section class="new-vac__data">
+  <form class="new-vac__data">
   <p class="new-vac__from">
     from<br/>
     <input class="new-vac__textfield" type="text" placeholder="07.01.2019" />
@@ -22,22 +22,22 @@
 
 
 
-<p class="new-vac__description"><img class="new-vac__info-icon" src= "../../assets/info-icon.svg"/>
+<summary class="new-vac__summary"><img class="new-vac__info-icon" src= "../../assets/info-icon.svg"/>
     CIAPA found the following overlapping vacations:<br>
     <br>
     Gabriel Brandersky absent from: <span class="new-vac__description--overlapping"> 07.01.2019 - 09.01.2019</span> <br>
     also working on project: <b>#MT DCM</b>
-</p>
+</summary>
+</form>
 
-</section>
 
-
-<h3 class="expand-calendar">
+<p class="expand-calendar">
     hide Team Calendar
   <button class="button-arrow__flipped"></button>
-</h3>
+</p>
 
-</form>
+</main>
+
 <app-team-calendar></app-team-calendar>
 <app-button-continue-back></app-button-continue-back>
 

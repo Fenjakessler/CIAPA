@@ -1,1 +1,14 @@
-/* No CSS *//*# sourceMappingURL=app.component.css.map */
+.navigation {
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+}
+
+.button {
+  float: right;
+  width: 100px;
+  height: 50px;
+  color: black;
+  font-size: 20px;
+}
+/*# sourceMappingURL=app.component.css.map */

@@ -13,6 +13,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { VacationApprovalComponent } from './vacation-approval/vacation-approval.component';
 import { ButtonAcceptDeclineComponent } from './button-accept-decline/button-accept-decline.component';
 import { ButtonContinueBackComponent } from './button-continue-back/button-continue-back.component';
+import { RemainingVacationChartComponent } from './remaining-vacation-chart/remaining-vacation-chart.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { ButtonContinueBackComponent } from './button-continue-back/button-conti
     TeamOverviewComponent,
     VacationApprovalComponent,
     ButtonAcceptDeclineComponent,
-    ButtonContinueBackComponent
+    ButtonContinueBackComponent,
+    RemainingVacationChartComponent
   ],
   imports: [
     BrowserModule

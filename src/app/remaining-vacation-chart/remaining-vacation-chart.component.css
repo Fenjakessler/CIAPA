@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+.circle-container {
+  height: 200px;
+  width: 200px;
+  position: relative;
+}
+
+.circle-container .circle1 {
+  margin-left: 100px;
+}
+
+.circle-container .circle2 {
+  position: absolute;
+  z-index: 2;
+}
+/*# sourceMappingURL=remaining-vacation-chart.component.css.map */

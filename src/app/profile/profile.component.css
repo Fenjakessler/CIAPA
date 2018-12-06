@@ -1,84 +1,88 @@
 /* You can add global styles to this file, and also import other style files */
-.grid-container {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 2fr 5fr 3fr;
-      grid-template-columns: 2fr 5fr 3fr;
-  -ms-grid-rows: 2fr 0.5fr 0.5fr 1fr;
-      grid-template-rows: 2fr 0.5fr 0.5fr 1fr;
-  margin: 55px;
+@media (min-width: 1400px) {
+  .grid-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 2fr 5fr 3fr;
+        grid-template-columns: 2fr 5fr 3fr;
+    -ms-grid-rows: 2fr 0.5fr 0.5fr 1fr;
+        grid-template-rows: 2fr 0.5fr 0.5fr 1fr;
+    margin: 55px;
+    white-space: nowrap;
+  }
+  .grid-container__remaining-vacation {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    margin-right: 55px;
+  }
+  .grid-container__annual-vacation {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    padding-top: 40px;
+    margin-right: 55px;
+  }
+  .grid-container__annual-days {
+    padding-top: 40px;
+    margin-right: 55px;
+  }
+  .grid-container__rest-vacation {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    margin-top: 80px;
+  }
+  .grid-container__planned-vacation {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    margin-bottom: 200px;
+  }
+  .grid-container__projects {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    margin-right: 55px;
+  }
+  .grid-container__trashbin {
+    background: url(./../../assets/trashbin.svg) no-repeat center;
+    background-color: #B61414;
+    background-size: 35px;
+    -webkit-box-shadow: 0 2px 5px #979797;
+            box-shadow: 0 2px 5px #979797;
+    border-radius: 4px;
+    display: inline-block;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+    height: 50px;
+    margin-right: 280px;
+    margin-left: 20px;
+    width: 50px;
+    vertical-align: top;
+  }
 }
 
-.grid-container__remaining-vacation {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 1;
-  grid-column: 1/2;
-  -ms-grid-rows: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
-  margin-right: 55px;
-}
-
-.grid-container__annual-vacation {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 1;
-  grid-column: 1/2;
-  padding-top: 40px;
-  margin-right: 55px;
-}
-
-.grid-container__annual-days {
-  padding-top: 40px;
-  margin-right: 55px;
-}
-
-.grid-container__rest-vacation {
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
-  grid-column: 2/3;
-  margin-top: 80px;
-}
-
-.grid-container__planned-vacation {
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 1;
-  grid-column: 1/2;
-  margin-bottom: 200px;
-}
-
-.grid-container__projects {
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 1;
-  grid-column: 1/2;
-  margin-right: 55px;
-}
-
-.grid-container__trashbin {
-  background: url(./../../assets/trashbin.svg) no-repeat center;
-  background-color: #B61414;
-  -webkit-box-shadow: 0 2px 5px #979797;
-          box-shadow: 0 2px 5px #979797;
-  border-radius: 4px;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-column: 3;
-  -ms-grid-column-span: 1;
-  grid-column: 3/4;
-  height: 65px;
-  margin-right: 280px;
-  float: right;
-  width: 65px;
-}
-
-.grid-container .button__new-vacation {
-  display: -ms-grid;
-  display: grid;
+.button__new-vacation {
   -ms-grid-column: 4;
   -ms-grid-column-span: 1;
   grid-column: 4/5;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+}
+
+.vacation-chart-remaining {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   grid-row: 1/2;

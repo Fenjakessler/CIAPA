@@ -1,1 +1,24 @@
-<app-team-overview></app-team-overview>
+
+
+<div class="app-container">
+<app-login *ngIf="current === 0"></app-login>
+<app-profile *ngIf="current === 1"></app-profile>
+<app-vacation-request-wizard *ngIf="current === 2"></app-vacation-request-wizard>
+<app-vacation-request-handling *ngIf="current === 3"></app-vacation-request-handling>
+<app-vacation-approval *ngIf="current === 4"></app-vacation-approval>
+<app-team-calendar *ngIf="current === 5"></app-team-calendar>
+<app-team-overview *ngIf="current === 6"></app-team-overview>
+
+<div class= "menu">
+
+  <button class="menu button"(click)="current = 6">overview</button>
+  <button class="menu button"(click)="current = 5">calendar</button>
+  <button class="menu button"(click)="current = 4">vacation-approval</button>
+  <button class="menu button"(click)="current = 3">vacation-handling</button>
+  <button class="menu button"(click)="current = 2">vacation-wizard</button>
+  <button class="menu button"(click)="current = 1">profile</button>
+  <button class="menu button" (click)="current = 0">login</button>
+
+
+</div>
+</div>

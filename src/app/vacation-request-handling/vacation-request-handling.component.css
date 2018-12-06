@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-.new-vac {
+.replacement-form {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 0.7fr 1fr 0.7fr;
@@ -9,12 +9,12 @@
   margin: 55px;
 }
 
-.new-vac__remaining-vac {
+.replacement-form__remaining-vac {
   color: #d8d8d8;
   margin-right: 55px;
 }
 
-.new-vac__description {
+.replacement-form__description {
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2/3;
@@ -23,7 +23,7 @@
   grid-row: 2/3;
 }
 
-.new-vac__replacements {
+.replacement-form__replacements {
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2/3;
@@ -37,7 +37,7 @@
   margin-top: 100px;
 }
 
-.new-vac__heading {
+.replacement-form__heading {
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2/3;
@@ -48,7 +48,7 @@
   border: 1px solid #979797;
 }
 
-.new-vac__number-selected {
+.replacement-form__number-selected {
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2/3;
@@ -59,26 +59,26 @@
   color: #d8d8d8;
 }
 
-.new-vac__cell1 {
+.replacement-form__cell1 {
   padding: 30px;
   color: #7E19A1;
   font-weight: bold;
   border: 1px solid #979797;
 }
 
-.new-vac__cell2 {
+.replacement-form__cell2 {
   padding: 30px;
   color: #7AA8DE;
   font-weight: bold;
   border: 1px solid #979797;
 }
 
-.new-vac__cell2--radio, .new-vac__cell1--radio {
+.replacement-form__cell2--radio, .replacement-form__cell1--radio {
   width: 30px;
   height: 30px;
 }
 
-.new-vac__buttons {
+.replacement-form__buttons {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 200px;

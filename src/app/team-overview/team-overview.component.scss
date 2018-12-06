@@ -9,6 +9,7 @@
     margin-top: 55px;
     white-space: nowrap;
     min-width: 1688px;
+    overflow-y: auto;
 }
 
 .search {
@@ -19,16 +20,16 @@
 
     &__search-bar {
         align-items: flex-start;
-        background-color: $light-grey;
+        background-color: #F9F7F7;
         border-radius: 4px;
         display: grid;
         border: 1px solid $dark-grey;
         color: $dark-grey;
-        font-size: 27px;
+        font-size: 20px;
         margin-right: 20px;
         margin-left: 20px;
         height: 63px;
-        width: 337px;
+        width: 260px;
         padding-right: 45px;
         padding-left: 15px;
         position: relative;
@@ -36,15 +37,15 @@
 
     &__loupe-button {
         background: url(./../../assets/loupe.svg) no-repeat;
-        background-color: $light-grey;
-        background-size: 40px 40px;
+        background-color: #F9F7F7;
+        background-size: 35px 35px;
         background-position: center;
-        width: 40px;
-        height: 40px;
+        width: 35px;
+        height: 35px;
         z-index: 2;
         position: absolute;
         margin-top: -50px;
-        margin-left: 295px;
+        margin-left: 230px;
         padding-left:20px;
     }
 }
@@ -143,9 +144,11 @@
     grid-column: span 1;
     grid-row: span 1;
     border-right: 1px solid $dark-grey;
+    font-size: 25px;
 
     &--planned {
       grid-column: span 2;
+
     }
 
 
@@ -160,38 +163,38 @@
         padding: 20px;
         border-bottom: 1px solid $dark-grey;
         border-right: 1px solid $dark-grey;
-        font-size: 32px;
+        font-size: 25px;
         color: $dark-grey;
 
 
     }
 
-    &__name--Anna {
+    &__name1 {
         color: $red;
         font-weight: bold;
     }
 
-    &__name--Gabriel {
+    &__name2 {
         color: #98C2E2;
         font-weight: bold;
     }
 
-    &__name--Matthias {
+    &__name3 {
         color: #36669E;
         font-weight: bold;
     }
 
-    &__name--Moritz {
+    &__name4 {
         color: #E09313;
         font-weight: bold;
     }
 
-    &__name--Elli {
+    &__name5 {
         color:#4d635c;
         font-weight: bold;
     }
 
-    &__name--Anna-R {
+    &__name6 {
         color: #7E19A1;
         font-weight: bold;
     }

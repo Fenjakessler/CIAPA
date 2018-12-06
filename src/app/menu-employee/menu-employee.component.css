@@ -83,6 +83,7 @@
 
 .topnav__logout {
   padding-right: 10px;
+  background: transparent;
 }
 
 .topnav__name {

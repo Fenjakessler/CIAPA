@@ -1,23 +1,31 @@
 @import "../../variables.scss";
 @import "../../mixins.scss";
-.arrow {
 
+.arrow {
   background: url(./../../assets/transparent.svg) no-repeat center;
-  font-size: 40px;
+  font-size: 35px;
   grid-row: 1/2;
   justify-self: center;
   width: 30px;
   height: 30px;
   color: black;
   float: right;
-  margin: 55px;
+  margin-top:55px;
+   &__right{
+    margin-right :55px;
+   }
+
+
 
 }
 
 .request-navigation {
   float: right;
-  font-size: 35px;
+  font-size: 30px;
   margin-top: 55px;
+  padding-left:20px;
+  padding-right:20px;
+
 
 }
 

@@ -35,6 +35,7 @@
   margin-top: 55px;
   text-align: center;
   min-width: 1000px;
+  justify-self: right;
 
   &__heading {
     margin-bottom: 20px;
@@ -52,10 +53,10 @@
     margin-left:42px;
   }
 
-  &__textfield {
-    border: 1px solid $light-grey;
+  &__textarea {
+    border: 1px solid $dark-grey;
     color: $light-grey;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bold;
     height: 97px;
     margin-left:222px;

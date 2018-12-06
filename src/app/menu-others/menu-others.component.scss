@@ -4,22 +4,21 @@
   background-color: $blue;
   color:$white;
   display: grid;
-  font-size: 40px;
+  font-size: 33px;
   font-weight: semi-bold;
   grid-template-columns: 1fr 1fr 1fr;
-  min-width: 1300px;
   text-align: center;
   text-decoration: none;
-  width: 100%;
   height: 102px;
   white-space: nowrap;
+
 
   &__left {
     display: grid;
     grid-template-columns: 100px 1fr;
     align-items: center;
     justify-content: start;
-  
+
   }
 
   &__center{
@@ -27,17 +26,17 @@
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     justify-content: center;
-    grid-column-gap: 50px;
-    margin-left: 50px;
+    grid-column-gap: 35px;
+    margin-left: 25px;
   }
 
   &__right{
     display:grid;
-    grid-template-columns: 90px minmax(90px, 400px) 90px;
+    grid-template-columns: 90px minmax(90px, 200px) 80px;
     justify-content: end;
     align-items: center;
-    margin-left: 100px;
-    grid-column-gap: 25px;
+    margin-left: 40px;
+    grid-column-gap: 10px;
   }
 
   &__logo {
@@ -56,7 +55,7 @@
   }
 
   &__teamcal {
-  
+
     white-space: nowrap;
   }
   &__vacation {
@@ -70,7 +69,8 @@
 
   &__logout {
     padding-right: 10px;
-   
+    background: transparent;
+
   }
 
   &__name {
