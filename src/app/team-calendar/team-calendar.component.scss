@@ -3,16 +3,15 @@
 
 
 .grid-container {
+    border: 1px solid $dark-grey;
     display: grid;
     grid-template-columns: 300px repeat(7, 1fr);
     grid-template-rows: 150px 100px repeat(2, 1fr) 100px;;
-    margin-top: 55px;
+    padding-top: 55px;
     white-space: nowrap;
     overflow-y: auto;
 
     &--compact {
-      border: 1px solid $dark-grey;
-      padding-top:50px;
       grid-template-rows: 100px 70px repeat(2, 1fr);
       size: 50%;
       margin: auto;
@@ -235,27 +234,29 @@
 }
 
 .on-vacation {
+    background-color: #28A2FF;
     font-size: 25px;
-    text-align: center;
     grid-column: 2/4;
     grid-row: 4/5;
-    background-color: #28A2FF;
-    opacity: 0.5;
     margin-top: 20px;
+    opacity: 0.5;
     padding-top: 15px;
     margin-bottom: 20px;
+    text-align: center;
+
+
 }
 
 .person-list {
     &__person {
         @include text-ellipsis;
-        grid-row: span 1;
-        grid-column: 1/2;
-        padding: 20px;
         border-bottom: 1px solid $dark-grey;
         border-right: 1px solid $dark-grey;
         font-size: 25px;
         color: $dark-grey;
+        grid-row: span 1;
+        grid-column: 1/2;
+        padding: 20px;
         &--compact{
           display:none;
         }
@@ -308,11 +309,11 @@
 
 
 .show-more-members {
+  align-self: center;
   grid-column: 1/9;
   grid-row:5/5;
-  text-align: center;
-  align-self: center;
   margin:10px;
+  text-align: center;
 
   &--compact{
     height: 100px;

@@ -29,13 +29,13 @@
     &__annual-vacation {
         display: grid;
         grid-column: 1/2;
+        margin-right: 30px;
         padding-top: 40px;
-        margin-right: 55px;
     }
-
     &__annual-days {
+        margin-right: 30px;
         padding-top: 40px;
-        margin-right: 55px;
+
     }
 
     &__rest-vacation {
@@ -62,10 +62,10 @@
         border-radius: 4px;
         display: inline-block;
         grid-column: 3/4;
-        height: 40px;
-        margin-right: 280px;
-        margin-left: 20px;
-        width: 40px;
+        height: 45px;
+        margin-right: 200px;
+        margin-left: 10px;
+        width: 45px;
         vertical-align: top;
 
 
