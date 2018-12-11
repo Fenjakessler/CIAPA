@@ -14,12 +14,7 @@
 }
 
 h1 {
-  font-size: 45px;
-  font-weight: semi-bold;
-}
-
-h2 {
-  font-size: 35px;
+  font-size: 40px;
   font-weight: semi-bold;
 }
 
@@ -33,26 +28,18 @@ h4 {
 }
 
 p {
-  font-size: 35px;
+  font-size: 30px;
 }
 
 .button {
   -webkit-box-shadow: 0 2px 5px #979797;
           box-shadow: 0 2px 5px #979797;
   border-radius: 4px;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: semi-bold;
-  height: 75px;
-  width: 193px;
+  height: 70px;
+  width: 180px;
   color: #ffffff;
-}
-
-.button__continue {
-  background-color: #28a2ff;
-}
-
-.button__back {
-  background-color: #ff793f;
 }
 
 .button__cancel {
@@ -64,8 +51,15 @@ p {
 
 .button__new-vacation {
   background-color: #1f9e82;
-  width: 320px;
-  float: right;
+  width: 250px;
+}
+
+.button__signin {
+  background-color: #28a2ff;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-left: 575px;
 }
 
 .button-arrow {

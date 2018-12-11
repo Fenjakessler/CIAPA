@@ -1,5 +1,69 @@
 @import "../../variables.scss";
 @import "../../mixins.scss";
+@media (max-width: 1499px){
+  .vacation {
+    display: grid;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+
+
+
+  &__annual {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    border-bottom: 1px solid $dark-grey;
+  }
+
+  &__past-year {
+      grid-column: 3/5;
+      grid-row: 1/2;
+  }
+
+  &__current-year {
+    grid-column: 5/7;
+  }
+
+  &__planned {
+    grid-column: 7/9;
+    grid-row: 1/3;
+    border-bottom: 1px solid $dark-grey;
+  }
+
+  &__past-year--spent {
+      grid-column: 3/4;
+      border-bottom: 1px solid $dark-grey;
+      font-weight: bold;
+      font-size: 20px;
+  }
+
+  &__past-year--left {
+      grid-column: 4/5;
+      border-bottom: 1px solid $dark-grey;
+      white-space: nowrap;
+      font-weight: bold;
+      font-size: 20px;
+  }
+
+  &__current-year--spent {
+      grid-column: 5/6;
+      border-bottom: 1px solid $dark-grey;
+      font-weight: bold;
+      font-size: 20px;
+
+  }
+
+  &__current-year--left {
+      grid-column: 6/7;
+      border-bottom: 1px solid $dark-grey;
+      white-space: nowrap;
+      font-weight: bold;
+      font-size: 20px;
+  }
+  }
+
+
+}
 
 .grid-container {
     border: 1px solid $dark-grey;
@@ -48,10 +112,14 @@
     }
 }
 
+@media (min-width: 1500px){
 .vacation {
     display: grid;
     text-align: center;
     padding: 10px;
+    &--smallscreen{
+      font-size: 20px;
+    }
 
 
 
@@ -79,17 +147,20 @@
     &__past-year--spent {
         grid-column: 3/4;
         border-bottom: 1px solid $dark-grey;
+        font-weight: bold;
     }
 
     &__past-year--left {
         grid-column: 4/5;
         border-bottom: 1px solid $dark-grey;
         white-space: nowrap;
+        font-weight: bold;
     }
 
     &__current-year--spent {
         grid-column: 5/6;
         border-bottom: 1px solid $dark-grey;
+        font-weight: bold;
 
     }
 
@@ -97,9 +168,10 @@
         grid-column: 6/7;
         border-bottom: 1px solid $dark-grey;
         white-space: nowrap;
+        font-weight: bold;
     }
 
-
+  }
 }
 
 .calendar {
@@ -170,6 +242,8 @@
         border-right: 1px solid $dark-grey;
         font-size: 25px;
         color: $dark-grey;
+
+
 
 
     }

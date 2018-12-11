@@ -1,38 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
-.topnav {
-  background-color: #28a2ff;
-  color: #ffffff;
-  display: -ms-grid;
-  display: grid;
-  font-size: 40px;
-  font-weight: semi-bold;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-  min-width: 1300px;
-  text-align: center;
-  text-decoration: none;
-  width: 100%;
-  height: 102px;
-  white-space: nowrap;
-}
-
-.topnav__logo {
-  float: left;
-  margin: 10px;
-}
-
-.topnav__Ciapa {
-  float: left;
-  padding-top: 25px;
-  padding-left: 15px;
-  text-align: center;
-  width: 40px;
-}
-
 .login {
+  -ms-grid-column-align: right;
+      justify-self: right;
   margin-top: 55px;
-  text-align: center;
   min-width: 1000px;
+  text-align: center;
 }
 
 .login__heading {
@@ -53,7 +25,7 @@
 .data-field__textarea {
   border: 1px solid #979797;
   color: #d8d8d8;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: bold;
   height: 97px;
   margin-left: 222px;
